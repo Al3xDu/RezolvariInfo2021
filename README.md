@@ -1,0 +1,1 @@
+# RezolvariInfo2021
