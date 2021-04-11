@@ -1,0 +1,103 @@
+citeşte n, k
+ (numere naturale)
+p1
+┌cât timp n>0 execută
+│ c<-n%10
+│┌dacă k>0 atunci
+││ ┌dacă c%2=1 atunci
+││ │ p<-p*c
+││ └■
+│└■
+│ n<-[n/10]; k<-k-1
+└■
+scrie p
+
+1.
+
+a.  n = 296385 , k = 3
+
+p=1
+
+n>0 ->
+        c=n%10 = 5
+        k=3>0
+            c=5%2=1 => p = p*c=1*5
+
+        n/=10 = 29638 k = 2
+
+        c=8
+        k=2>0
+            c=8%2=1 => nimic
+        n=2963 k = 1
+
+        ...
+
+        p=5*3 = 15
+
+        k = 0
+
+        ...
+        nimic
+
+
+se va scrie 15.
+
+b.
+    k=4
+
+    10 000  - 100 000
+
+    88 881
+    10000, 98888
+
+c. s21c.cpp
+
+d.
+
+citeste n, k
+p<-1
+
+┌ daca n > 0 atunci
+│  ┌executa
+│  │ c<-n%10
+│  │┌daca k>0 atunci
+│  ││┌daca c%2=1 atunci
+│  │││ p<-p*c
+│  ││└[]
+│  │└[]
+│  │ n <- [n/10]; k <- k-1
+│  └cat timp n > 0
+└[]
+
+scrie p
+
+
+
+2.
+
+struct ciocolata{
+    char denumirea[50];
+    int gramaj;
+    data_expirarii datae;
+}c;
+
+struct data_expirarii{
+    int zi;
+    int luna;
+    int an;
+};
+
+
+3. s23.cpp
+
+char s[20],t[20];
+
+   012345678
+s="sanataTEA"
+
+cout<<strlen(s)  -> afiseaza 9
+
+i=0<9 - > t = s+i+1 = n   // s[i+1]
+          s+i = a = n     // s[i]
+9sntTEA
+
