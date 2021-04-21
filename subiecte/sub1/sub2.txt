@@ -1,0 +1,39 @@
+1.
+
+
+
+
+
+
+2.
+
+
+14  =  1 2 7 14
+
+Numerele ce dau 14 cu paritate diferita in adiacenta:
+
+1 + 4 + 9 => 149
+
+1 + 6 + 7 => 167
+
+3 + 4 + 7 => 347
+
+
+3.
+
+s1 = "bac2021"
+
+printeaza 7
+      0123
+s2 = "2021"
+
+s2+2 = "2020-"
+
+s2= "2020-2021"
+
+printeaza 2020-2021
+
+
+Se afiseaza:
+7
+2020-2021
