@@ -1,0 +1,72 @@
+1.
+
+a.
+n=250887
+x=m=0
+p=1
+
+x<10 => cn=n=250887
+        cn!=0 => c=cn%10=7
+                 cn/=10 = 25088
+                 c!=x
+                mai departe ....
+
+                c = 250%10 = 0
+
+                m=0*1+0=0
+                p=10
+
+
+
+x=x+2 = 2 <10 = > cn=250887
+            cn!=0
+            c=2
+
+            m=2*10+0 = 20
+            p=100
+
+
+x=6 sarim peste
+
+x=8 < 10 => cn=250887
+            ...
+            c=8
+            m=8*100+20=820
+            p=1000
+            c=8
+            m=8*1000+820=8820
+            p=10 000
+
+afiseaza 8820
+
+b. 888, 2 , 42, 84 ...
+
+c. sub2ex1.cpp
+
+d.
+
+daca cn!=0 atunci
+    executa
+        c<-cn%10; cn<-[cn/10]
+        dacă c=x atunci
+            m<-c*p+m; p<-p*10
+    cat timp cn!=0
+
+2.
+
+struct exponat{
+    char nume[101];
+    char colectia[101];
+};
+
+struct muzeu{
+    exponat exponat[3];
+}m;
+
+3.
+
+char s[21];
+
+afiseaza :
+un
+zeu

@@ -1,0 +1,24 @@
+
+2.
+
+f(4) => x=3 f(2) => x = 1 f(1) => x=0 printeaza
+        f(1) = > printeaza x=1
+        x=2 f(2) => x =1
+        x=1
+
+
+3.
+{„Bono”, „Bruce Springsteen”, „Bon Jovi”, „Leonard Cohen”, „Portugal.The Man”}
+
+{„Bono”, „Bon Jovi”, „Portugal.The Man”}
+
+
+(„Bono”, „Bruce Springsteen”, „Bono”, „Bruce Springsteen”),
+(„Bono”, „Bruce Springsteen”, „Bono”, „Leonard Cohen”),
+(„Bono”, „Bruce Springsteen”, „Bruce Springsteen”, „Bono”),
+(„Bono”, „Bruce Springsteen”, „Bruce Springsteen”, „Bruce Springsteen”),
+(„Bono”, „Bruce Springsteen”, „Bruce Springsteen”, „Bon Jovi”)
+
+
+c.(„Portugal.The Man”, „Leonard Cohen”, „Portugal.The Man”, „Leonard Cohen”)
+
