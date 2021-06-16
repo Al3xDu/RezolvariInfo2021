@@ -1,0 +1,17 @@
+
+
+
+f(3) = afis 3
+        f(2) = afis 2
+                f(1)  = afis 1
+                        f(0) = afis 0
+                        x=0
+                x=1
+                f(0) = afis 0
+                x=0
+        x=2
+        f(1) = afis 1
+                f(0) = afis 0
+        x=1
+        f(0) = afis 0
+        x=0
